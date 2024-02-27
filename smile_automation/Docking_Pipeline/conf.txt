@@ -1,0 +1,8 @@
+receptor = final_6zbc.pdbqt
+exhaustiveness  = 8
+center_x = 157.647563188
+center_y = 154.967812463
+center_z = 163.049725194
+size_x = 101.835507969
+size_y = 131.551922089
+size_z = 70.7024476114
