@@ -64,7 +64,7 @@ class VinaRunner:
             subprocess.run(["vina", "--receptor", protein_file, "--ligand", ligand_file, "--out", output_pdbqt, "--log", log_file,
                             "--center_x", str(center_x), "--center_y", str(center_y), "--center_z", str(center_z),
                             "--size_x", str(size_x), "--size_y", str(size_y), "--size_z", str(size_z), "--exhaustiveness", str(exhaustiveness)],
-                            check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                            check=True)
             
             # Parse the log file and extract docking results
             with open(log_file, 'r') as f:
